@@ -13,7 +13,7 @@ import telegram
 import tqdm
 
 
-PATH = "C:\\Program Files (x86)\\chromedriver.exe"
+PATH = "/usr/bin/chromedriver"
 
 numero_di_telefono = "3248020317"
 
