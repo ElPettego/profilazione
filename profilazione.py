@@ -135,6 +135,7 @@ try:
     options.add_argument('--test-type')
     options.add_argument('--disable-notifications')
     options.add_argument('--headless')
+    options.add_argument('--log-level=3')
     driver = webdriver.Chrome(executable_path=PATH, options=options)
     actionChains = ActionChains(driver)
     driver.get('https://web.telegram.org/z/#' + CHAT_ID_BOT_ESTERNO)
